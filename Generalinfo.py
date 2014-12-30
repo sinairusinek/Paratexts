@@ -3,10 +3,9 @@
 
 ROOT_PATH = 'files'
 
-# in order to find out the number of files per decade for a corpus(ECCO/EEBO-TCP), 
-#and specify if they have 'paratextual DIV's in the front, back, both or none in order to find their number and percentage(out of total of files), 
-#this script outputs into the text_file, in each line, the filename, cleaned year, and state of paratext (frontonly, backonly, both or none)
-#this will also enable to check the per-decade or annual relation of paratexts per text
+# Since Totalfiles.py came out with 98% of the files having front matter,  
+# this script enables checking the place of the most common DIV in front matter, the Title page. 
+
 #*counts only the files with clear and exact year.
 #########
 
