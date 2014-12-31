@@ -2,16 +2,6 @@
 # -*- coding: utf-8 -*-
 
 ROOT_PATH = 'files'
-#need to also calculate the same, but with frontext not including title pages
-
-# in order to find out the number of files per decade for a corpus(ECCO/EEBO-TCP), 
-#and specify if they have paratext in the front, back, both or none in order to fnd their number and percentage(out of total of files), 
-#this script outputs into the text_file in each line the filename, cleaned year, and state of paratext (frontonly, backonly, both or none)
-#this will also enable to check the per-decade or annual relation of paratexts per text
-#*counts only the files with clear and exact year
-#the output into the out_file will enable to report all the inexact or unclear dates, and calculate their precentage against the total/clear and vs the exact dated files
-#remaining problem: I cannot make it write into the files!
-#########
 
 import os, re, time
 import xml.etree.ElementTree as ET
