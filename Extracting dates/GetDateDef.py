@@ -6,7 +6,7 @@
 #have to also exclude "after/not after x" and check in EEBO "later","earlier", "before"   
 #in ECCO there are two "--1798--"s which are misidentified as "range"
 
-import re, math
+import re
 
 YEAR_RE = re.compile(r'\d{4}')
 YEARquestion_RE = re.compile(r'\d{4}\?')  
