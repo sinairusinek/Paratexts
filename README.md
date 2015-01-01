@@ -15,5 +15,4 @@ Whereas EEBOtcp1 files are headed (the headers joined with the files), some of t
 
 
 
-Extracting dates:
-Use dateinfo files. Also requires the functions in GetDateDef.py!
+*Note on extracting dates: dateinfo...py files call the functions in GetDateDef.py!
