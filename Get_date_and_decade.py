@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# some further coding can be done here:
 #can check if twice and a==b return
 #have to also exclude "after/not after x" and check in EEBO "later","earlier", "before"   
 #in ECCO there are two "--1798--"s which are misidentified as "range"
@@ -29,7 +30,7 @@ def get_year(year_text):
     elif match:
         return int(match.group())
     else: 	
-        return 4   #(which you should not get if all goes well)
+        return 4   # other forms of expressing uncertainty or inexactness
         
     
 def todecades(intyear):
